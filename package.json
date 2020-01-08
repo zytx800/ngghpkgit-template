@@ -8,6 +8,11 @@
   "dependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14",
+    "@dagonmetric/ng-log": "^2.2.0",
+    "@dagonmetric/ng-log-applicationinsights": "2.3.0",
+    "@dagonmetric/ng-log-facebook-analytics": "1.0.1",
+    "@dagonmetric/ng-log-firebase-analytics": "1.0.1",
+    "@dagonmetric/ng-log-gtag": "2.2.1",
     "rxjs": "^6.5.4",
     "zone.js": "^0.10.2"
   }
