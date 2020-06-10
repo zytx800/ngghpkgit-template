@@ -6,7 +6,7 @@
     "test": "echo \"Just testing!\""
   },
   "dependencies": {
-    "@angular/common": "^9.1.10",
+    "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.10",
     "@dagonmetric/angular-build": "^9.0.2",
     "@dagonmetric/ng-cache": "^2.0.4",
