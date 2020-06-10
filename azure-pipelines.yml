@@ -19,7 +19,7 @@ steps:
     version: '$(nodeVersion)'
 
 - script: |
-    npm install
+    npm ci
     npm run test
   env:
     GITHUB_TOKEN: $(GITHUB_TOKEN)
