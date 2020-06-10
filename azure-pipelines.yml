@@ -1,11 +1,3 @@
-schedules:
-- cron: '0 0 * * *'
-  displayName: Schedule build
-  branches:
-    include:
-    - master
-  always: 'true'
-
 strategy:
   matrix:
     linux-node-12:
@@ -16,10 +8,7 @@ strategy:
       nodeVersion: '12.x'
     windows-2019-node-12:
       imageName: 'windows-2019'
-      nodeVersion: '12.x'
-    win1803-node-12:
-      imageName: 'win1803'
-      nodeVersion: '12.x'
+      nodeVersion: '12.x'    
 
 pool:
   vmImage: $(imageName)
